@@ -1,4 +1,4 @@
-<bold>dmxSnake Readme</bold>
+<b>dmxSnake Readme</b>
 
 Thanks for checking out dmxSnake! I'm a board op not a software engineer, so I'm aware this code is messy and performing sub optimal math in a lot of places, but it's good enough to hit 40fps on a Raspberry Pi so it's good enough for github. If you feel like optimizing or improving, be my guest.
 
