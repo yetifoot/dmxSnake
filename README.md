@@ -4,7 +4,7 @@ Thanks for checking out dmxSnake! I'm a board op not a software engineer, so I'm
 
 <b>Setup</b>
 
-This script requires Python (and pyGame, which normally comes with it) as well as OLA to handle the dmx output. OLA works on Mac and Linux, if you have Windows, spin up a virtual Linux box.
+This script requires Python (and pyGame and numPy, which normally comes with it) as well as OLA to handle the dmx output. OLA works on Mac and Linux, if you have Windows, spin up a virtual Linux box.
 
 https://www.openlighting.org/ola/getting-started/downloads/
 
