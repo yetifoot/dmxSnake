@@ -16,7 +16,7 @@ OLA is now set up to start sending data over your preferred protocol to your tra
 
 Before you run the script for the first time, you need to edit the variable "universe" on line 58 to reflect the universe you just configured in OLA. It defaults to 2 because that's what I was using for testing.
 
-While you're in the script you can also change the size of your pixel array with the "pxlWidth" and "pxlHeight" on lines 54 and 55. I've started an 8x8 grid with a box of Helios in mode 42 in mind as the default setup, but the game should scale to any array with 170 pixels or less(width*height) (1 universe of dmx).
+While you're in the script you can also change the size of your pixel array with the "pxlWidth"(number of fixtures) and "pxlHeight"(pixels per fixture) on lines 54 and 55. I've started an 8x16 grid with a box of Titans in mode 42 in mind as the default setup, but the game should scale to any array with 170 pixels or less(width*height) (1 universe of dmx).
 
 You can also adjust the speed of your snake and therefore difficulty with the "velocity" variable on line 44.
 
