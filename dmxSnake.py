@@ -52,7 +52,7 @@ reset = False
 score = 0
 FPS = 40
 pxlWidth = 8
-pxlHeight = 8
+pxlHeight = 16
 intens = 0.5
 #set dmx universe for OLA
 universe = 2
@@ -95,7 +95,7 @@ while running:
         headY = snakehead[1] + direction[1] *dt *velocity
         snakehead = np.array((headX, headY))
         #check if out of bounds. includes a buffer zone from the precise math to give the player a little wiggle room with the big pixels
-        if headX < -0.4 or headX > pxlWidth-1.6:
+        if headX < -0.4 or headX > pxlWidth-0.6:
             alive = False
         if headY < -0.4 or headY > pxlHeight-0.6:
             alive = False
